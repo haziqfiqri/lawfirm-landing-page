@@ -1,0 +1,32 @@
+[
+  {
+    "point": "Unparalleled Expertise",
+    "description": "Our team comprises leading experts in both civil and Syariah law",
+    "icon": "Scale"
+  },
+  {
+    "point": "Proven Track Record",
+    "description": "We have a history of success in handling complex and landmark cases",
+    "icon": "Award"
+  },
+  {
+    "point": "Holistic Approach",
+    "description": "We believe in exploring all avenues for resolution, including dispute resolution",
+    "icon": "HeartHandshake"
+  },
+  {
+    "point": "Client-Focused",
+    "description": "We prioritize our clients' needs and work closely with them",
+    "icon": "Users"
+  },
+  {
+    "point": "Global Network",
+    "description": "We have participation in an international alliance of law firms",
+    "icon": "Earth"
+  },
+  {
+    "point": "Commitment to Excellence",
+    "description": "We are dedicated to upholding the highest ethical standards",
+    "icon": "ThumbsUp"
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Contract Law",
+    "icon": "history_edu",
+    "description": "Legal assistance in contract drafting, negotiation, enforcement, and dispute resolution.",
+    "pills": [
+      "Breach of contract disputes",
+      "Contract negotiation & drafting",
+      "Contract review & interpretation",
+      "Specific performance & injunctions"
+    ]
+  },
+  {
+    "title": "Property Law",
+    "icon": "home_work",
+    "description": "Legal services related to land ownership, transactions, tenancy disputes, and strata title issues.",
+    "pills": [
+      "Land disputes",
+      "Landlord-tenant disputes",
+      "Property sale & purchase",
+      "Strata title disputes"
+    ]
+  },
+  {
+    "title": "Tort Law",
+    "icon": "personal_injury",
+    "description": "Handling civil wrongs, including negligence, defamation, nuisance, and trespass cases.",
+    "pills": [
+      "Negligence claims",
+      "Defamation",
+      "Nuisance claims",
+      "Trespass to land or property"
+    ]
+  },
+  {
+    "title": "Family Law",
+    "icon": "family_restroom",
+    "description": "Legal support for family-related matters, including divorce, custody, maintenance, and adoption.",
+    "pills": [
+      "Divorce & separation",
+      "Child custody & visitation rights",
+      "Spousal & child maintenance",
+      "Adoption procedures",
+      "Domestic violence & protection orders"
+    ]
+  },
+  {
+    "title": "Administrative and Constitutional Law",
+    "icon": "gavel",
+    "description": "Legal challenges against government decisions and constitutional matters.",
+    "pills": [
+      "Judicial review of government actions",
+      "Constitutional law challenges",
+      "Public interest litigation"
+    ]
+  },
+  {
+    "title": "Commercial and Corporate Law",
+    "icon": "corporate_fare",
+    "description": "Legal guidance on corporate structures, transactions, and dispute resolution.",
+    "pills": [
+      "Company formation & registration",
+      "Shareholder & partnership disputes",
+      "Mergers & acquisitions",
+      "Insolvency & bankruptcy",
+      "Debt recovery & enforcement"
+    ]
+  },
+  {
+    "title": "Construction Law",
+    "icon": "Construction",
+    "description": "Legal services in construction contracts, disputes, and liability claims.",
+    "pills": [
+      "Construction contract disputes",
+      "Claims for defective workmanship",
+      "Payment disputes",
+      "Delay claims"
+    ]
+  },
+  {
+    "title": "Employment Law",
+    "icon": "person_apron",
+    "description": "Advisory and dispute resolution in employment-related matters.",
+    "pills": [
+      "Wrongful termination & unfair dismissal",
+      "Employment contract drafting & review",
+      "Retrenchment & redundancy claims"
+    ]
+  },
+  {
+    "title": "Probate and Administration of Estates",
+    "icon": "real_estate_agent",
+    "description": "Legal services for estate administration and inheritance distribution.",
+    "pills": [
+      "Grant of probate & letters of administration",
+      "Estate distribution & succession planning"
+    ]
+  },
+  {
+    "title": "Islamic Family Law",
+    "icon": "family_restroom",
+    "description": "Legal support for family matters under Islamic law, including divorce, custody, and inheritance.",
+    "pills": [
+      "Divorce (Talaq, Khulu, Fasakh)",
+      "Child custody (Hadhanah)",
+      "Nafkah (spousal & child maintenance)",
+      "Muta'ah (compensatory gift upon divorce)",
+      "Division of matrimonial assets",
+      "Nusyuz (wife's disobedience cases)",
+      "Restoration of conjugal rights"
+    ]
+  },
+  {
+    "title": "Islamic Inheritance Law",
+    "icon": "volunteer_activism",
+    "description": "Advisory on estate distribution in accordance with Islamic law.",
+    "pills": [
+      "Estate distribution",
+      "Preparation of Islamic wills",
+      "Hibah (Islamic gift)"
+    ]
+  },
+  {
+    "title": "Islamic Finance",
+    "icon": "volunteer_activism",
+    "description": "Legal structuring of financial transactions in compliance with Shariah principles.",
+    "pills": [
+      "Advisory on financial products & transactions",
+      "Structuring Islamic finance agreements"
+    ]
+  },
+  {
+    "title": "Charitable Endowments",
+    "icon": "volunteer_activism",
+    "description": "Guidance on establishing and managing Islamic charitable endowments (Wakaf).",
+    "pills": ["Advisory on Wakaf establishment & management"]
+  },
+  {
+    "title": "Islamic Criminal Law",
+    "icon": "",
+    "description": "Legal consultation on offenses under Islamic criminal law.",
+    "pills": ["Advisory on Hudud, Qisas, & Ta’zir offenses"]
+  },
+  {
+    "title": "Mediation",
+    "icon": "",
+    "description": "Facilitation of dispute resolution through structured negotiation and dialogue.",
+    "pills": [
+      "Facilitating communication & negotiation between parties",
+      "Assisting mutually agreeable settlements"
+    ]
+  },
+  {
+    "title": "Arbitration",
+    "icon": "",
+    "description": "Binding dispute resolution through impartial adjudication outside of court.",
+    "pills": ["Neutral arbitration for commercial & civil disputes"]
+  },
+  {
+    "title": "Conciliation",
+    "icon": "",
+    "description": "Legal-assisted resolution process fostering agreement between disputing parties.",
+    "pills": ["Encouraging dispute resolution with legal oversight"]
+  },
+  {
+    "icon": "",
+    "title": "Mediation Training",
+    "description": "Professional training for mediators to facilitate dispute resolution.",
+    "pills": ["Certification & skill-building for professional mediators"]
+  }
+]

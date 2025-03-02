@@ -1,0 +1,17 @@
+[
+  {
+    "point": "Office Hotline",
+    "description": "+603-80819551",
+    "icon": "Phone"
+  },
+  {
+    "point": "Office Fax",
+    "description": "+603-80815554",
+    "icon": "Printer"
+  },
+  {
+    "point": "Office Email",
+    "description": "contact@czarlawfirm.com",
+    "icon": "Mail"
+  }
+]
