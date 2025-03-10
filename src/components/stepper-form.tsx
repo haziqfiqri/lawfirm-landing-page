@@ -89,9 +89,9 @@ const steps: StepConfig[] = [
 ];
 
 const inputClass =
-  "w-full px-4 py-2 border border-[#8F6F4C] text-[#072240] placeholder:text-[#072240] font-instrument-sans-regular text-base font-medium";
+  "w-full px-4 py-2 border border-[#8F6F4C] text-[#072240] placeholder:text-[#072240] font-instrument-sans-regular text-sm lg:text-base font-medium";
 const baseButtonClass =
-  "hover:cursor-pointer font-instrument-sans-regular text-base font-semibold px-6 py-2 relative overflow-hidden transition-all duration-300 after:absolute after:bottom-0 after:left-0 after:h-full after:w-0 after:transition-all after:duration-300 hover:after:w-full";
+  "hover:cursor-pointer font-instrument-sans-regular text-base font-semibold px-6 py-2 relative overflow-hidden transition-all duration-300 after:absolute after:bottom-0 after:left-0 after:h-full after:w-0 after:transition-all after:duration-300 hover:after:w-full text-sm lg:text-base";
 const primaryButtonClass = `${baseButtonClass} text-white bg-gradient-to-br from-[#8F6F4C] to-[#CC9E52] hover:text-white after:bg-[#072240]`;
 const secondaryButtonClass = `${baseButtonClass} border border-[#8F6F4C] text-[#8F6F4C] bg-white hover:text-white after:bg-[#072240]`;
 
@@ -188,7 +188,7 @@ const StepperForm = () => {
             <div className="space-y-2">
               <Label
                 htmlFor={currentStepConfig.name}
-                className="font-tinos-regular font-normal text-2xl text-white"
+                className="font-tinos-regular font-normal text-lg sm:text-2xl text-white"
               >
                 {currentStepConfig.label}{" "}
                 <span className="text-red-500">*</span>
@@ -210,7 +210,7 @@ const StepperForm = () => {
                       <SelectItem
                         key={option}
                         value={option}
-                        className="font-instrument-sans-regular text-base font-medium text-[#072240] hover:cursor-pointer hover:underline"
+                        className="font-instrument-sans-regular text-sm sm:text-base font-medium text-[#072240] hover:cursor-pointer hover:underline"
                       >
                         {option}
                       </SelectItem>

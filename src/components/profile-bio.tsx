@@ -1,6 +1,7 @@
 import React from "react";
+import { ITeamsItem } from "./teams-item";
 
-export default function ProfileBio() {
+export default function ProfileBio({ data }: { data: ITeamsItem }) {
   return (
     <React.Fragment>
       <div className="container px-4 sm:mx-auto grid grid-cols-1 max-w-7xl bg-[#F6F3F1]">
@@ -16,14 +17,16 @@ export default function ProfileBio() {
             </div>
 
             <div className="flex flex-col gap-2.5">
-              <div className="flex gap-2.5">
-                <span className="invisible font-tinos-regular font-semibold text-2xl text-[#072240]">
-                  —
-                </span>
-                <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                  Cert in Mediation, the Accord Group Australia
-                </p>
-              </div>
+              {data.qualifications.map((qualificiation, index) => (
+                <div className="flex gap-2.5" key={index}>
+                  <span className="invisible font-tinos-regular font-semibold text-2xl text-[#072240]">
+                    —
+                  </span>
+                  <p className="font-tinos-regular font-normal text-lg text-[#072240]">
+                    {qualificiation}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
           <div className="flex flex-col">
@@ -44,7 +47,7 @@ export default function ProfileBio() {
                       —
                     </span>
                     <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                      Mediation
+                      {data.practices.join(", ") || "N/A"}
                     </p>
                   </div>
                 </div>
@@ -65,7 +68,7 @@ export default function ProfileBio() {
                       —
                     </span>
                     <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                      English, Malay
+                      {data.languages?.join(", ") || ""}
                     </p>
                   </div>
                 </div>
@@ -76,7 +79,7 @@ export default function ProfileBio() {
                     —
                   </span>
                   <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
-                    Practice Areas
+                    Date of call
                   </h1>
                 </div>
 
@@ -86,15 +89,7 @@ export default function ProfileBio() {
                       —
                     </span>
                     <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                      Civil
-                    </p>
-                  </div>
-                  <div className="flex gap-2.5">
-                    <span className="invisible font-tinos-regular font-semibold text-2xl text-[#072240]">
-                      —
-                    </span>
-                    <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                      Syariah
+                      TBA
                     </p>
                   </div>
                 </div>

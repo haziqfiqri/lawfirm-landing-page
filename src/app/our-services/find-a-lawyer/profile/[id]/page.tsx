@@ -9,14 +9,14 @@ export default function Page({ params }: { params: Promise<{ id: string }> }) {
   const unwrappedParams = use(params);
   const { id } = unwrappedParams;
 
-  const item = teams.find((team) => team.id === id);
+  const lawyer = teams.find((data) => data.id === id);
 
-  if (item) {
+  if (lawyer) {
     return (
       <React.Fragment>
-        <ProfileHero item={item} />
+        <ProfileHero data={lawyer} />
         <div className="bg-[#F6F3F1]">
-          <ProfileBio />
+          <ProfileBio data={lawyer} />
         </div>
       </React.Fragment>
     );

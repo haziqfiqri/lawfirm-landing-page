@@ -17,7 +17,7 @@ export default function Page() {
     return (
       team.name.toLowerCase().includes(query) ||
       team.description.toLowerCase().includes(query) ||
-      team.tag.some((pill) => pill.toLowerCase().includes(query))
+      team.practices.some((pill) => pill.toLowerCase().includes(query))
     );
   });
 

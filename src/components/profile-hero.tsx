@@ -3,7 +3,7 @@ import { ITeamsItem } from "./teams-item";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProfileHero({ item }: { item: ITeamsItem }) {
+export default function ProfileHero({ data }: { data: ITeamsItem }) {
   return (
     <React.Fragment>
       <div className="flex w-full bg-[#F1E7DD] pt-12">
@@ -11,26 +11,26 @@ export default function ProfileHero({ item }: { item: ITeamsItem }) {
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 flex">
               <Image
-                src={item.source ?? "/assets/teams-png/default-team.png"}
+                src={data.source ?? "/assets/teams-png/default-team.png"}
                 width={0}
                 height={0}
                 sizes="100vw 100vh"
                 className="w-full min-h-96 object-contain aspect-video"
-                alt={item.name}
+                alt={data.name}
               />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center gap-6">
               <div className="flex flex-col gap-2.5">
                 <h1 className="font-tinos-regular font-normal text-3xl text-[#8F6F4C]">
-                  {item.name}
+                  {data.name}
                 </h1>
                 <p className="font-tinos-regular text-3xl font-medium text-[#072240]">
-                  {item.description}
+                  {data.description}
                 </p>
               </div>
               <div className="flex gap-4">
                 <Link
-                  href={`/our-services/find-a-lawyer/profile/${item.id}`}
+                  href={`/our-services/find-a-lawyer/profile/${data.id}`}
                   className="w-full"
                 >
                   <button
@@ -60,6 +60,7 @@ export default function ProfileHero({ item }: { item: ITeamsItem }) {
                             after:duration-300 
                             hover:after:w-full
                         "
+                    disabled
                   >
                     <span className="relative z-10">Make Appointment</span>
                   </button>
@@ -97,6 +98,7 @@ export default function ProfileHero({ item }: { item: ITeamsItem }) {
                         after:duration-300 
                         hover:after:w-full
                     "
+                    disabled
                   >
                     <span className="relative z-10">Whatsapp</span>
                   </button>

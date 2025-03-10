@@ -7,7 +7,9 @@ export interface ITeamsItem {
   name: string;
   description: string;
   source: string | null;
-  tag: Array<string>;
+  practices: Array<string>;
+  languages: Array<string>;
+  qualifications: Array<string>;
 }
 
 export default function TeamsItem({ item }: { item: ITeamsItem }) {
@@ -65,7 +67,7 @@ export default function TeamsItem({ item }: { item: ITeamsItem }) {
               <span className="relative z-10">View Profile</span>
             </button>
           </Link>
-          <button
+          {/* <button
             className="
                 font-instrument-sans-regular 
                 text-base 
@@ -93,7 +95,7 @@ export default function TeamsItem({ item }: { item: ITeamsItem }) {
               "
           >
             <span className="relative z-10">Make Appointment</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </React.Fragment>
