@@ -14,7 +14,7 @@ export default function HeaderTop() {
           Office : +603-80819551
         </Link>
         <Link
-          href={"/our-services/enquiry-now"}
+          href={"/"}
           className="flex items-center gap-1.5 w-fit font-instrument-sans-regular text-xs font-medium text-[#072240]"
         >
           <MessageCircleQuestion
