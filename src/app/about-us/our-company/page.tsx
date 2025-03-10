@@ -78,7 +78,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-10 my-10">
+        <div className="flex flex-col gap-10 mt-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
               Our Values
@@ -125,6 +125,54 @@ export default function Page() {
               </h1>
               <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
                 Embracing modern solutions to navigate complex legal challenges.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-10 my-10">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
+              Our Awards
+            </h1>
+            <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+              Our firm has been recognized for excellence in legal practice
+              through prestigious accolades. These accolades and publications
+              demonstrate our commitment to excellence, innovation, and the
+              advancement of legal knowledge within the community.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-2.5">
+              <Image
+                src="/assets/apac_insider.png"
+                width={0}
+                height={0}
+                sizes="100vw 100vh"
+                className="w-full h-full object-contain max-w-64"
+                alt="apac_insider"
+              />
+              <h1 className="font-tinos-regular font-normal text-xl text-[#8F6F4C]">
+                South East Asia Business Awards
+              </h1>
+              <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+                Best Muslim Family Law Firm 2019
+              </p>
+            </div>
+            <div className="flex flex-col gap-2.5">
+              <Image
+                src="/assets/book_award.png"
+                width={0}
+                height={0}
+                sizes="100vw 100vh"
+                className="w-full h-full object-contain max-w-64"
+                alt="book_award"
+              />
+              <h1 className="font-tinos-regular font-normal text-xl text-[#8F6F4C]">
+                Anugerah Buku Negara
+              </h1>
+              <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+                National Book Award 2019
               </p>
             </div>
           </div>
