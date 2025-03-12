@@ -12,7 +12,11 @@ export default function Footer() {
             <h1 className="font-instrument-sans-regular text-base font-medium text-[#072240] leading-normal tracking-wide">
               All lawyers at Chambers of Zainul Rijal are regulated by the
               &nbsp;
-              <Link href={"/"} className="underline">
+              <Link
+                href={"https://www.malaysianbar.org.my/"}
+                target="_blank"
+                className="underline"
+              >
                 Malaysian Bar Council
               </Link>
               .

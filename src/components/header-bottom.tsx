@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { AlignJustify } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,8 +13,17 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function HeaderBottom() {
+  const [open, setOpen] = useState(false);
+
   return (
     <React.Fragment>
       <div className="bg-[#E9E2DB] px-4 container sm:mx-auto flex justify-between items-center max-w-7xl">
@@ -27,11 +37,118 @@ export default function HeaderBottom() {
             alt="company_logo"
           />
         </Link>
+
+        {/* Mobile Menu */}
         <div className="flex sm:hidden">
-          <button>
-            <AlignJustify className="text-[#8F6F4C]" />
-          </button>
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
+              <button>
+                <AlignJustify className="text-[#8F6F4C]" />
+              </button>
+            </SheetTrigger>
+            <SheetContent
+              side="right"
+              className="bg-[#E9E2DB] w-[85%] p-0 data-[state=open]:animate-slide-in-right data-[state=closed]:animate-slide-out-right"
+            >
+              <SheetHeader className="px-4 pt-6">
+                <SheetTitle className="text-[#8F6F4C] font-instrument-sans-regular text-left">
+                  Chambers of Zainul Rijal
+                </SheetTitle>
+              </SheetHeader>
+              <div className="flex flex-col py-6 px-4">
+                <Link
+                  href="/"
+                  className="py-4 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] border-b border-[#8F6F4C]/20"
+                  onClick={() => setOpen(false)}
+                >
+                  Home
+                </Link>
+
+                <div className="py-4 border-b border-[#8F6F4C]/20">
+                  <p className="font-instrument-sans-regular text-base font-medium text-[#8F6F4C] mb-2">
+                    Our Services
+                  </p>
+                  <div className="flex flex-col gap-2 mt-2">
+                    <Link
+                      href="/our-services/find-a-lawyer"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Find a lawyer
+                    </Link>
+                    <Link
+                      href="/our-services/legal-practices"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Practice Areas
+                    </Link>
+                    <Link
+                      href="/"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Lawyer Appointment
+                    </Link>
+                    <Link
+                      href="/"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Enquiry Form
+                    </Link>
+                  </div>
+                </div>
+
+                <Link
+                  href="/latest-insights"
+                  className="py-4 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] border-b border-[#8F6F4C]/20"
+                  onClick={() => setOpen(false)}
+                >
+                  Latest Insights
+                </Link>
+
+                <div className="py-4 border-b border-[#8F6F4C]/20">
+                  <p className="font-instrument-sans-regular text-base font-medium text-[#8F6F4C] mb-2">
+                    About Us
+                  </p>
+                  <div className="flex flex-col gap-2 mt-2">
+                    <Link
+                      href="/about-us/contact-us"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Contact Us
+                    </Link>
+                    <Link
+                      href="/about-us/our-company"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Our Company
+                    </Link>
+                    <Link
+                      href="/about-us/meet-founder"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Meet The Founder
+                    </Link>
+                    <Link
+                      href="/about-us/our-people"
+                      className="text-[#072240] text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      Our People
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
+
+        {/* Desktop Menu - Unchanged */}
         <NavigationMenu className="bg-[#E9E2DB] hidden sm:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -53,7 +170,7 @@ export default function HeaderBottom() {
                   <li className="flex w-full lg:w-3/5">
                     <NavigationMenuLink asChild>
                       <Link
-                        className="flex gap-4 h-full w-full select-none justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none focus:shadow-md"
+                        className="flex gap-4 h-full w-full select-none justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none"
                         href="/our-services/legal-practices"
                       >
                         <div className="w-full h-full lg:w-80 lg:h-52 aspect-video p-1.5 bg-[#8F6F4C]">
@@ -133,7 +250,7 @@ export default function HeaderBottom() {
                   <li className="flex w-full lg:w-3/5">
                     <NavigationMenuLink asChild>
                       <Link
-                        className="flex gap-4 h-full w-full select-none justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none focus:shadow-md"
+                        className="flex gap-4 h-full w-full select-none justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none"
                         href="/about-us/our-company"
                       >
                         <div className="w-full h-full lg:w-80 lg:h-52 aspect-video p-1.5 bg-[#8F6F4C]">
@@ -205,6 +322,7 @@ export default function HeaderBottom() {
   );
 }
 
+// ListItem component remains unchanged
 const ListItem = React.forwardRef<
   HTMLAnchorElement,
   React.ComponentPropsWithoutRef<typeof Link> & {
