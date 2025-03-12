@@ -59,7 +59,7 @@ export default function Page() {
                   className="flex flex-col md:flex-row gap-4 w-fit"
                   key={index}
                 >
-                  <div className="aspect-video p-1.5 bg-[#8F6F4C]">
+                  <div className="p-1.5 bg-[#8F6F4C]">
                     <Image
                       src={item.src}
                       width={0}
