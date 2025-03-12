@@ -16,7 +16,7 @@ export default function TeamsItem({ item }: { item: ITeamsItem }) {
   return (
     <React.Fragment>
       <div className="flex flex-col gap-4">
-        <div className="aspect-video bg-[#F1E7DD]">
+        <div className="bg-[#F1E7DD]">
           <Image
             src={item.source ?? "/assets/teams-png/default-team.png"}
             width={0}

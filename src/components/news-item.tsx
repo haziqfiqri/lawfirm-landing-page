@@ -17,7 +17,7 @@ export default function NewsItem({ item }: { item: INewsItem }) {
       className="flex flex-col gap-10 group"
     >
       <div className="flex flex-col gap-4">
-        <div className="aspect-video p-1.5 bg-[#8F6F4C]">
+        <div className="p-1.5 bg-[#8F6F4C]">
           <Image
             src={item.src}
             width={0}
