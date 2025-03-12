@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React, { useState } from "react";
 import news from "@/data/news.json";
+import Link from "next/link";
 
 export default function Page() {
   const [visibleItems, setVisibleItems] = useState(4);
@@ -75,9 +76,13 @@ export default function Page() {
                     <p className="font-instrument-sans-regular text-base font-normal text-[#072240] line-clamp-3">
                       {item.description}
                     </p>
-                    <button className="py-1.5 w-fit font-tinos-regular text-sm font-light text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 group-hover:after:w-full">
+                    <Link
+                      href={item.link}
+                      target="_blank"
+                      className="py-1.5 w-fit font-tinos-regular text-sm font-light text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 group-hover:after:w-full"
+                    >
                       Read More
-                    </button>
+                    </Link>
                   </div>
                 </div>
               ))}
