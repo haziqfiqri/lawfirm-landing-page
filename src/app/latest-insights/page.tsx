@@ -1,11 +1,18 @@
+"use client";
 import Breadcrumbs from "@/components/breadcrumbs";
 // import SectionHeader from "@/components/section-header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import news from "@/data/news.json";
 
 export default function Page() {
+  const [visibleItems, setVisibleItems] = useState(4);
+
+  const loadMore = () => {
+    setVisibleItems((prevVisibleItems) => prevVisibleItems + 4);
+  };
+
   return (
     <React.Fragment>
       <section className="relative flex min-h-64 lg:min-h-96 bg-[url('/assets/section-banners/section-banner-blog.jpg')] bg-cover bg-center">
@@ -46,7 +53,7 @@ export default function Page() {
               </div>
             </div>
             <div className="w-full lg:w-3/4 flex flex-col gap-10">
-              {news.map((item, index) => (
+              {news.slice(0, visibleItems).map((item, index) => (
                 <div
                   className="flex flex-col md:flex-row gap-4 w-fit"
                   key={index}
@@ -74,6 +81,41 @@ export default function Page() {
                   </div>
                 </div>
               ))}
+
+              {visibleItems < news.length && (
+                <div className="flex justify-center mt-6">
+                  <button
+                    onClick={loadMore}
+                    className="
+                        font-instrument-sans-regular 
+                        text-base 
+                        font-normal 
+                        text-white 
+                        px-6 
+                        py-3 
+                        relative 
+                        overflow-hidden 
+                        bg-gradient-to-br 
+                        from-[#8F6F4C] 
+                        to-[#CC9E52]
+                        transition-all 
+                        duration-300
+                        hover:text-white
+                        after:absolute 
+                        after:bottom-0 
+                        after:left-0 
+                        after:h-full 
+                        after:w-0 
+                        after:bg-[#072240] 
+                        after:transition-all 
+                        after:duration-300 
+                        hover:after:w-full
+                      "
+                  >
+                    <span className="relative z-10">Load More News</span>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
