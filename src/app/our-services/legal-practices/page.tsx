@@ -27,14 +27,22 @@ export default function Page() {
 
   return (
     <React.Fragment>
-      <div className="container px-4 sm:mx-auto grid grid-cols-1">
+      <section className="relative flex min-h-64 lg:min-h-96 bg-[url('/assets/section-banners/section-banner-practices.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
+        <div className="relative px-4 container sm:mx-auto max-w-7xl">
+          <div className="flex flex-col h-full justify-center">
+            <h1 className="font-tinos-regular font-normal text-4xl text-white">
+              Legal Practices
+            </h1>
+          </div>
+        </div>
+      </section>
+      <div className="container px-4 sm:mx-auto grid grid-cols-1 max-w-7xl">
         <Breadcrumbs items={["Home", "Our Services", "Legal Practices"]} />
         <Search
           onSearchChange={handleSearchChange}
           placeholder="Type here to filter services"
         />
-      </div>
-      <div className="container px-4 sm:mx-auto grid grid-cols-1 max-w-7xl">
         <Services label="All Services" data={filteredServices} />
       </div>
     </React.Fragment>

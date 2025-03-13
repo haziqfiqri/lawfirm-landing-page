@@ -34,22 +34,22 @@ export default function Footer() {
                 About Us
               </Link>
               <Link
-                href={"/our-services/find-a-lawyer"}
+                href={"/our-services/find-our-experts"}
                 className="py-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
               >
-                Find a Lawyer
+                Find Our Experts
               </Link>
               <Link
-                href={"/our-services/enquiry-now"}
+                href={"/our-services/legal-practices"}
                 className="py-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
               >
-                Enquiry Now
+                Practice Areas
               </Link>
               <Link
                 href={"/latest-insights"}
                 className="py-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
               >
-                Blogs & Articles
+                Legal Insights
               </Link>
             </div>
             <div className="flex flex-col  w-full">
@@ -137,19 +137,19 @@ export default function Footer() {
           </h1>
           <div className="flex flex-wrap md:gap-4">
             <Link
-              href={"/"}
+              href={"/disclaimer"}
               className="pb-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
             >
               Disclaimer
             </Link>
             <Link
-              href={"/"}
+              href={"/personal-data-protection-notice"}
               className="pb-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
             >
               Personal Data Protection Notice
             </Link>
             <Link
-              href={"/"}
+              href={"/terms-of-use"}
               className="pb-3 w-fit font-instrument-sans-regular text-base font-medium text-[#072240] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#8F6F4C] after:transition-all after:duration-300 hover:after:w-full"
             >
               Terms of Use

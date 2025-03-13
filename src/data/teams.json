@@ -79,6 +79,15 @@
     ]
   },
   {
+    "id": "mohd-ridhuan-bin-jamhari",
+    "name": "Mohd Ridhuan Bin Jamhari",
+    "description": "Lawyer",
+    "source": "/assets/teams-png/MOHD_RIDHUAN_BIN_JAMHARI.png",
+    "practices": ["TBA"],
+    "languages": ["English", "Bahasa Malaysia"],
+    "qualifications": [""]
+  },
+  {
     "id": "ain-sakinah-binti-ali",
     "name": "A'in Sakinah Binti Ali",
     "description": "Lawyer",
@@ -101,41 +110,5 @@
       "Ijazah Sarjana Muda Pengajian Islam (Syariah), Universiti Kebangsaan Malaysia",
       "Cert in Mediation, The Accord Group Australia "
     ]
-  },
-  {
-    "id": "mohd-ridhuan-bin-jamhari",
-    "name": "Mohd Ridhuan Bin Jamhari",
-    "description": "Lawyer",
-    "source": "/assets/teams-png/MOHD_RIDHUAN_BIN_JAMHARI.png",
-    "practices": ["TBA"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [""]
-  },
-  {
-    "id": "hazlan-bin-ali",
-    "name": "Hazlan Bin Ali",
-    "description": "Adminstration & Human Resources",
-    "source": "/assets/teams-png/HAZLAN_BIN_ALI.png",
-    "practices": ["TBA"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [""]
-  },
-  {
-    "id": "norlaili-binti-ahmad",
-    "name": "Norlaili Binti Ahmad",
-    "description": "Adminstration & Human Resources",
-    "source": "/assets/teams-png/NORLAILI_BINTI_AHMAD@IBRAHIM.png",
-    "practices": ["TBA"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [""]
-  },
-  {
-    "id": "zuriani-binti-mamat",
-    "name": "Zuriani Binti Mamat",
-    "description": "Adminstration & Human Resources",
-    "source": "/assets/teams-png/ZURIANI_BINTI_MAMAT.png",
-    "practices": ["TBA"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [""]
   }
 ]

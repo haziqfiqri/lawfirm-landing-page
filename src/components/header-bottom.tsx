@@ -135,13 +135,6 @@ export default function HeaderBottom() {
                     >
                       Our Company
                     </Link>
-                    {/* <Link
-                      href="/about-us/meet-founder"
-                      className="text-[#072240] text-sm"
-                      onClick={() => setOpen(false)}
-                    >
-                      Meet The Founder
-                    </Link> */}
                     <Link
                       href="/about-us/our-people"
                       className="text-[#072240] text-sm"
@@ -156,7 +149,7 @@ export default function HeaderBottom() {
           </Sheet>
         </div>
 
-        {/* Desktop Menu - Unchanged */}
+        {/* Desktop Menu */}
         <NavigationMenu className="bg-[#E9E2DB] hidden md:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -210,8 +203,8 @@ export default function HeaderBottom() {
                   </li>
                   <li className="w-full lg:w-2/5 grid grid-cols-2 gap-x-10 gap-y-10 h-fit">
                     <ListItem
-                      href="/our-services/find-a-lawyer"
-                      title="Find a lawyer"
+                      href="/our-services/find-our-experts"
+                      title="Find Our Experts"
                       className="p-0 h-fit"
                     >
                       <span className="text-[#072240]">
@@ -242,14 +235,14 @@ export default function HeaderBottom() {
             <NavigationMenuItem>
               <Link href="/latest-insights" legacyBehavior passHref>
                 <NavigationMenuLink className="pb-2 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 hover:after:w-full">
-                  Latest Insights
+                  Legal Insights
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/about-us/meet-founder" legacyBehavior passHref>
                 <NavigationMenuLink className="pb-2 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 hover:after:w-full">
-                  Meet The Founder
+                  The Founder
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
