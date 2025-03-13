@@ -108,6 +108,14 @@ export default function HeaderBottom() {
                   Latest Insights
                 </Link>
 
+                <Link
+                  href="/about-us/meet-founder"
+                  className="py-4 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] border-b border-[#8F6F4C]/20"
+                  onClick={() => setOpen(false)}
+                >
+                  Meet The Founder
+                </Link>
+
                 <div className="py-4 border-b border-[#8F6F4C]/20">
                   <p className="font-instrument-sans-regular text-base font-medium text-[#8F6F4C] mb-2">
                     About Us
@@ -127,13 +135,13 @@ export default function HeaderBottom() {
                     >
                       Our Company
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/about-us/meet-founder"
                       className="text-[#072240] text-sm"
                       onClick={() => setOpen(false)}
                     >
                       Meet The Founder
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/about-us/our-people"
                       className="text-[#072240] text-sm"
