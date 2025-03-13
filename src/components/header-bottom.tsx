@@ -217,13 +217,13 @@ export default function HeaderBottom() {
                     >
                       Discover our areas and practices.
                     </ListItem>
-                    <ListItem
+                    {/* <ListItem
                       href="/"
                       title="Lawyer Appointment"
                       className="p-0"
                     >
                       Book an appointment with a lawyer.
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem href="/" title="Enquiry Form" className="p-0">
                       Reach out to us for legal inquiry.
                     </ListItem>
