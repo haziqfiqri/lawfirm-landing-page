@@ -39,7 +39,7 @@ export default function HeaderBottom() {
         </Link>
 
         {/* Mobile Menu */}
-        <div className="flex sm:hidden">
+        <div className="flex md:hidden">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <button>
@@ -149,7 +149,7 @@ export default function HeaderBottom() {
         </div>
 
         {/* Desktop Menu - Unchanged */}
-        <NavigationMenu className="bg-[#E9E2DB] hidden sm:flex">
+        <NavigationMenu className="bg-[#E9E2DB] hidden md:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>
@@ -239,6 +239,13 @@ export default function HeaderBottom() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
+              <Link href="/about-us/meet-founder" legacyBehavior passHref>
+                <NavigationMenuLink className="pb-2 font-instrument-sans-regular text-base font-medium text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 hover:after:w-full">
+                  Meet The Founder
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
               <NavigationMenuTrigger
                 disableIcon={true}
                 className="font-instrument-sans-regular text-base font-medium text-[#8F6F4C] relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#072240] after:transition-all after:duration-300 hover:after:w-full"
@@ -297,13 +304,13 @@ export default function HeaderBottom() {
                     >
                       Get to know our law firm in details.
                     </ListItem>
-                    <ListItem
+                    {/* <ListItem
                       href="/about-us/meet-founder"
                       title="Meet The Founder"
                       className="p-0"
                     >
                       Read the story of our firm founder.
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem
                       href="/about-us/our-people"
                       title="Our People"
