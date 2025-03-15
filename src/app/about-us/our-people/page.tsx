@@ -56,9 +56,14 @@ export default function Page() {
               integral to the CZAR experience.
             </p>
           </div>
-          <div className="flex aspect-video">
+          <div className="flex flex-col mt-12">
+            <div className="flex flex-col mb-12">
+              <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
+                Organization Chart
+              </h1>
+            </div>
             <Image
-              src={"/assets/section-banners/organization-chart.png"}
+              src={"/assets/section-banners/organization_chart.svg"}
               width={0}
               height={0}
               sizes="100vw 100vh"
