@@ -5,7 +5,7 @@ import Link from "next/link";
 export interface ITeamsItem {
   id?: string;
   name: string;
-  description: string;
+  role: string;
   source: string | null;
   practices: Array<string>;
   languages: Array<string>;
@@ -31,11 +31,11 @@ export default function TeamsItem({ item }: { item: ITeamsItem }) {
             {item.name}
           </h1>
           <p className="font-instrument-sans-regular text-base font-normal text-[#072240] line-clamp-3">
-            {item.description}
+            {item.role}
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <Link href={`/our-services/find-a-lawyer/profile/${item.id}`}>
+          <Link href={`/our-services/find-our-experts/profile/${item.id}`}>
             <button
               className="
                 w-full

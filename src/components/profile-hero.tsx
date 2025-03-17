@@ -25,7 +25,7 @@ export default function ProfileHero({ data }: { data: ITeamsItem }) {
                   {data.name}
                 </h1>
                 <p className="font-tinos-regular text-3xl font-medium text-[#072240]">
-                  {data.description}
+                  {data.role}
                 </p>
               </div>
               <div className="flex gap-4">

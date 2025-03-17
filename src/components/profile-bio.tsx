@@ -42,14 +42,24 @@ export default function ProfileBio({ data }: { data: ITeamsItem }) {
                 </div>
 
                 <div className="flex flex-col">
-                  <div className="flex gap-2.5">
+                  {data.practices.map((practice, index) => (
+                    <div className="flex gap-2.5" key={index}>
+                      <span className="invisible font-tinos-regular font-semibold text-2xl text-[#072240]">
+                        —
+                      </span>
+                      <p className="font-tinos-regular font-normal text-lg text-[#072240]">
+                        {practice || "N/A"}
+                      </p>
+                    </div>
+                  ))}
+                  {/* <div className="flex gap-2.5">
                     <span className="invisible font-tinos-regular font-semibold text-2xl text-[#072240]">
                       —
                     </span>
                     <p className="font-tinos-regular font-normal text-lg text-[#072240]">
                       {data.practices.join(", ") || "N/A"}
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="flex flex-col gap-2.5">
