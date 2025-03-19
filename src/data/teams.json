@@ -4,7 +4,7 @@
     "name": "Dato Haji Zainul Rijal Bin Abu Bakar",
     "role": "Principal Partner",
     "source": "/assets/teams-png/DATO_HAJI_ZAINUL_RIJAL_BIN_ABU_BAKAR.png",
-    "practices": ["-"],
+    "practices": ["Sharia"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Master of Laws (LL.M), University Kebangsaan Malaysia",
@@ -12,7 +12,8 @@
       "Diploma in Syariah Law & Practice (DLSA), UiTM",
       "Cert in Advance Mediation, The Accord Group",
       "Cert in Human Rights, Geneva International Centre for Justice"
-    ]
+    ],
+    "yip": null
   },
   {
     "id": "muhammad-akmal-bin-abu-bakar",
@@ -27,7 +28,8 @@
       "Bachelor of Law (LL.B Hons), UiTM",
       "Post Graduate Diploma In Syariah & Practice (DLSA), UiTM",
       "Bachelor of Legal Studies (BLS Hons), UiTM"
-    ]
+    ],
+    "yip": 2012
   },
   {
     "id": "danial-farhan-bin-zainul-rijal",
@@ -40,30 +42,33 @@
       "Bachelor of Laws (Hons), International Islamic University Malaysia",
       "Postgraduate Diploma in Syariah and Practice, UiTM",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2022
   },
   {
     "id": "muhammad-isyraf-rusydi-bin-mohd-fauzi",
     "name": "Muhammad Isyraf Rusydi Bin Mohd Fauzi",
     "role": "Legal Assistance",
-    "source": null,
+    "source": "/assets/teams-png-new/MUHAMMAD_ISYRAF_RUSYDI_BIN_MOHD_FAUZI.PNG",
     "practices": ["Civil Litigation"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Bachelor of Laws (Hons), International Islamic University Malaysia",
       "Bachelor of Laws (Shariah)(Hons), International Islamic University Malaysia"
-    ]
+    ],
+    "yip": 2023
   },
   {
     "id": "siti-nursalamah-binti-hussin",
     "name": "Siti Nursalamah Binti Hussin",
     "role": "Legal Assistance",
-    "source": null,
+    "source": "/assets/teams-png-new/SITI_NURSALAMAH_BINTI_HUSSIN.PNG",
     "practices": ["Conveyancing"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Bachelor of Laws (hons), Universiti Sultan Zainal Abidin"
-    ]
+    ],
+    "yip": 2025
   },
   {
     "id": "abdurrahman-bin-che-saupi",
@@ -76,7 +81,8 @@
       "B.A Syariah Fiqh wa Usul, Yarmouk University, Jordan",
       "Advance Diploma in Law and Administration of Islamic Judiciary (DAIJ), International Islamic University Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2025
   },
   {
     "id": "nur-amirah-haziqah-binti-mohd-sabri",
@@ -89,19 +95,21 @@
       "Bachelor of Islamic Jurisprudence (Feqh Wa Usuluh), University Al Al-Bayt, Jordan",
       "Postgraduate in Islamic Judicial and Advocatory Practice, Universiti Kebangsaan Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2019
   },
   {
     "id": "siti-hajar-binti-mohd-khusari",
     "name": "Siti Hajar Binti Mohd Khusari",
     "role": "Legal Counsel / Mediator",
-    "source": null,
+    "source": "/assets/teams-png-new/SITI_HAJAR_BINTI_MOHD_KHUSARI.PNG",
     "practices": ["Shariah"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Ijazah Sarjana Muda Pengajian Islam (Syariah), Universiti Kebangsaan Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2021
   },
   {
     "id": "farah-aleah-binti-zainul-rijal",
@@ -113,7 +121,8 @@
     "qualifications": [
       "Bachelor of Human Sciences in Psychology (hons), International Islamic University Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2023
   },
   {
     "id": "nur-maisarah-azeman",
@@ -125,41 +134,45 @@
     "qualifications": [
       "Bachelor of Human Sciences in Sociology and Anthropology, International Islamic University Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2024
   },
   {
     "id": "ain-sakinah-binti-ali",
     "name": "A'in Sakinah Binti Ali",
     "role": "Mediator",
-    "source": null,
+    "source": "/assets/teams-png-new/A_IN_SAKINAH_BINTI_ALI.PNG",
     "practices": ["-"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Bachelor of Laws (Hons), International Islamic University Malaysia",
       "Bachelor of Laws (Shariah)(Hons), International Islamic University Malaysia",
       "Cert in Mediation, The Accord Group"
-    ]
+    ],
+    "yip": 2024
   },
   {
     "id": "lokman-hakim-bin-zani",
     "name": "Lokman Hakim Bin Zani",
     "role": "Mediator",
-    "source": null,
+    "source": "/assets/teams-png-new/LOKMAN_HAKIM_BIN_ZAINI.PNG",
     "practices": ["-"],
     "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": ["Cert in Mediation, The Accord Group"]
+    "qualifications": ["Cert in Mediation, The Accord Group"],
+    "yip": 2025
   },
   {
     "id": "mohammad-adib-bin-tajul-ariffin",
     "name": "Mohammad Adib Bin Tajul Ariffin",
     "role": "Paralegal",
-    "source": null,
+    "source": "/assets/teams-png-new/MOHAMMAD_ADIB_BIN_TAJUL_ARIFFIN.PNG",
     "practices": ["-"],
     "languages": ["English", "Bahasa Malaysia"],
     "qualifications": [
       "Bachelor of Syariah (hons), Universiti Sultan Abdul Halim Mu'adzam Shah",
       "Postgraduate Diploma in Syariah and Practice, UiTM"
-    ]
+    ],
+    "yip": 2025
   },
   {
     "id": "mohd-ridhuan-bin-jamhari",
@@ -168,6 +181,7 @@
     "source": "/assets/teams-png/MOHD_RIDHUAN_BIN_JAMHARI.png",
     "practices": ["TBA"],
     "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [""]
+    "qualifications": [""],
+    "yip": null
   }
 ]

@@ -10,6 +10,7 @@ export interface ITeamsItem {
   practices: Array<string>;
   languages: Array<string>;
   qualifications: Array<string>;
+  yip: number | null;
 }
 
 export default function TeamsItem({ item }: { item: ITeamsItem }) {

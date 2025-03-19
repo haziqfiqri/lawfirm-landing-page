@@ -89,7 +89,7 @@ export default function ProfileBio({ data }: { data: ITeamsItem }) {
                     —
                   </span>
                   <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
-                    Date of call
+                    Level
                   </h1>
                 </div>
 
@@ -120,7 +120,7 @@ export default function ProfileBio({ data }: { data: ITeamsItem }) {
                       —
                     </span>
                     <p className="font-tinos-regular font-normal text-lg text-[#072240]">
-                      2021
+                      {data.yip || "N/A"}
                     </p>
                   </div>
                 </div>
