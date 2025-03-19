@@ -70,7 +70,7 @@ export default function HeaderBottom() {
                   </p>
                   <div className="flex flex-col gap-2 mt-2">
                     <Link
-                      href="/our-services/find-a-lawyer"
+                      href="/our-services/find-our-experts"
                       className="text-[#072240] text-sm"
                       onClick={() => setOpen(false)}
                     >
