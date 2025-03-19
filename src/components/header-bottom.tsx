@@ -74,7 +74,7 @@ export default function HeaderBottom() {
                       className="text-[#072240] text-sm"
                       onClick={() => setOpen(false)}
                     >
-                      Find our experts
+                      Find Our Experts
                     </Link>
                     <Link
                       href="/our-services/legal-practices"
