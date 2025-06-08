@@ -176,7 +176,7 @@ export default function Page() {
                 Office: +603-80819551
               </p>
               <p className="font-instrument-sans-regular text-base font-medium text-[#072240]">
-                Email: contact@czarlawfirm.com
+                Email: czarlawusj@gmail.com
               </p>
             </div>
           </div>

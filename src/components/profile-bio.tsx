@@ -83,7 +83,7 @@ export default function ProfileBio({ data }: { data: ITeamsItem }) {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-2.5">
+              {/* <div className="flex flex-col gap-2.5">
                 <div className="flex gap-2.5">
                   <span className="font-tinos-regular font-semibold text-2xl text-[#072240]">
                     —
@@ -103,7 +103,7 @@ export default function ProfileBio({ data }: { data: ITeamsItem }) {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-col gap-2.5">
                 <div className="flex gap-2.5">
                   <span className="font-tinos-regular font-semibold text-2xl text-[#072240]">

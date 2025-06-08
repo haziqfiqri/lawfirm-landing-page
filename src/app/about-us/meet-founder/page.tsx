@@ -26,6 +26,11 @@ const hallmarks = [
       "Testament to his entrepreneurial spirit and his vision for a modern, forward thinking legal practice.",
   },
   {
+    header: "Founder of the legal firm Tetuan Chambers of Zainul Rijal (Shariah) (SCZAR)",
+    content:
+      "Dedication to provide legal services in Islamic jurisprudence.",
+  },
+  {
     header: "Darjah Dato' Paduka Mahkota Perak (DPMP)",
     content:
       "A recipient which carries the title Dato', an honor bestowed by the Sultan of Perak in recognition of his significant contributions to society.",

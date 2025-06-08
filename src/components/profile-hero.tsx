@@ -1,7 +1,7 @@
 import React from "react";
 import { ITeamsItem } from "./teams-item";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function ProfileHero({ data }: { data: ITeamsItem }) {
   return (
@@ -28,7 +28,7 @@ export default function ProfileHero({ data }: { data: ITeamsItem }) {
                   {data.role}
                 </p>
               </div>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <Link
                   href={`/our-services/find-a-lawyer/profile/${data.id}`}
                   className="w-full"
@@ -103,7 +103,7 @@ export default function ProfileHero({ data }: { data: ITeamsItem }) {
                     <span className="relative z-10">Whatsapp</span>
                   </button>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

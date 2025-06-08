@@ -4,8 +4,8 @@
     "icon": "history_edu",
     "description": "Legal assistance in contract drafting, negotiation, enforcement, and dispute resolution.",
     "pills": [
-      "Breach of contract disputes",
-      "Contract negotiation & drafting",
+      "Breach of contract disputes (e.g, non-payment, non-performance, dispute over contractual terms)",
+      "Negotiation & drafting of contracts",
       "Contract review & interpretation",
       "Specific performance & injunctions"
     ]
@@ -15,9 +15,9 @@
     "icon": "home_work",
     "description": "Legal services related to land ownership, transactions, tenancy disputes, and strata title issues.",
     "pills": [
-      "Land disputes",
-      "Landlord-tenant disputes",
-      "Property sale & purchase",
+      "Land disputes (e.g., boundary disputes, ownership claims, adverse possession)",
+      "Landlord and tenant disputes (e.g., eviction, rental arrears, breach of lease agreements)",
+      "Sale and purchase of property (e.g., conveyancing, disputes over sale agreements)",
       "Strata title disputes"
     ]
   },
@@ -26,8 +26,8 @@
     "icon": "personal_injury",
     "description": "Handling civil wrongs, including negligence, defamation, nuisance, and trespass cases.",
     "pills": [
-      "Negligence claims",
-      "Defamation",
+      "Negligence claims (e.g., personal injury, medical negligence, professional negligence)",
+      "Defamation (libel & slander)",
       "Nuisance claims",
       "Trespass to land or property"
     ]
@@ -38,9 +38,9 @@
     "description": "Legal support for family-related matters, including divorce, custody, maintenance, and adoption.",
     "pills": [
       "Divorce & separation",
-      "Child custody & visitation rights",
-      "Spousal & child maintenance",
-      "Adoption procedures",
+      "Child custody & access",
+      "Maintenance (spousal & child support)",
+      "Adoption",
       "Domestic violence & protection orders"
     ]
   },
@@ -49,8 +49,8 @@
     "icon": "gavel",
     "description": "Legal challenges against government decisions and constitutional matters.",
     "pills": [
-      "Judicial review of government actions",
-      "Constitutional law challenges",
+      "Judicial review of government decisions",
+      "Constitutional challenges",
       "Public interest litigation"
     ]
   },
@@ -60,10 +60,10 @@
     "description": "Legal guidance on corporate structures, transactions, and dispute resolution.",
     "pills": [
       "Company formation & registration",
-      "Shareholder & partnership disputes",
-      "Mergers & acquisitions",
-      "Insolvency & bankruptcy",
-      "Debt recovery & enforcement"
+      "Shareholder disputes",
+      "Mergers and acquisitions",
+      "Insolvency and bankruptcy",
+      "Debt recovery"
     ]
   },
   {
@@ -82,9 +82,9 @@
     "icon": "person_apron",
     "description": "Advisory and dispute resolution in employment-related matters.",
     "pills": [
-      "Wrongful termination & unfair dismissal",
-      "Employment contract drafting & review",
-      "Retrenchment & redundancy claims"
+      "Wrongful dismissal",
+      "Employment contracts",
+      "Retrenchment"
     ]
   },
   {
@@ -92,8 +92,8 @@
     "icon": "real_estate_agent",
     "description": "Legal services for estate administration and inheritance distribution.",
     "pills": [
-      "Grant of probate & letters of administration",
-      "Estate distribution & succession planning"
+      "Obtaining grant of probate or letters of administration",
+      "Estate distribution"
     ]
   },
   {
@@ -103,10 +103,10 @@
     "pills": [
       "Divorce (Talaq, Khulu, Fasakh)",
       "Child custody (Hadhanah)",
-      "Nafkah (spousal & child maintenance)",
-      "Muta'ah (compensatory gift upon divorce)",
-      "Division of matrimonial assets",
-      "Nusyuz (wife's disobedience cases)",
+      "Nafkah (maintenance) for wife and children",
+      "Muta’ah (consulatory gift upon divorce)",
+      "Division of matrimonial property (jointly acquired property)",
+      "Nusyuz (recalcitrance of a wife)",
       "Restoration of conjugal rights"
     ]
   },
@@ -115,9 +115,9 @@
     "icon": "volunteer_activism",
     "description": "Advisory on estate distribution in accordance with Islamic law.",
     "pills": [
-      "Estate distribution",
-      "Preparation of Islamic wills",
-      "Hibah (Islamic gift)"
+      "Distribution of estates according to Islamic principles",
+      "Preparation of Islamic wills (wasiyyah)",
+      "Hibah (gift)"
     ]
   },
   {
@@ -125,7 +125,7 @@
     "icon": "volunteer_activism",
     "description": "Legal structuring of financial transactions in compliance with Shariah principles.",
     "pills": [
-      "Advisory on financial products & transactions",
+      "Advising on Shariah-compliant financial products and transactions",
       "Structuring Islamic finance agreements"
     ]
   },
@@ -133,13 +133,13 @@
     "title": "Charitable Endowments",
     "icon": "volunteer_activism",
     "description": "Guidance on establishing and managing Islamic charitable endowments (Wakaf).",
-    "pills": ["Advisory on Wakaf establishment & management"]
+    "pills": ["Advising on establishing and managing Wakaf"]
   },
   {
     "title": "Islamic Criminal Law",
     "icon": "",
     "description": "Legal consultation on offenses under Islamic criminal law.",
-    "pills": ["Advisory on Hudud, Qisas, & Ta’zir offenses"]
+    "pills": ["Advising on matters related to Hudud, Qisas, and Ta’zir offences"]
   },
   {
     "title": "Mediation",
