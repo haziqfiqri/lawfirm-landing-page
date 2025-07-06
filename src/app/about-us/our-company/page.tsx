@@ -20,26 +20,66 @@ export default function Page() {
         <div className="flex flex-col mt-12">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
-              We See The Law Differently.
+              Our Story
             </h1>
             <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
-              Nestled in the bustling hub of Subang Jaya, Selangor Darul Ehsan,
-              the esteemed Chambers of Zainul Rijal (CZAR) stands as a beacon of
-              legal prowess. Established on June 26, 2020, by the highly
-              respected Dato&apos; Haji Zainul Rijal bin Abu Bakar, CZAR carries
-              forward a distinguished legacy from its predecessor, Messrs Zainul
-              Rijal Talha & Amir, which served with distinction for 24 years
-              since 1996.
+                From the vibrant heart of Subang Jaya, Selangor Darul Ehsan, a vision for a different 
+                kind of legal practice took root. On June 26, 2020, the Chambers of Zainul Rijal 
+                (CZAR) was established by the highly respected Dato’ Haji Zainul Rijal bin Abu Bakar. 
+                This was not merely the beginning of a new firm, but the continuation of a profound 
+                legal journey that began with Messrs Zainul Rijal Talha & Amir in 1996. For 24 years, 
+                that predecessor firm carved a niche of distinction, building a legacy of integrity 
+                and success that CZAR was poised to inherit and expand upon.
               <br />
               <br />
-              With the addition of Muhammad Akmal bin Abu Bakar as Managing
-              Partner, CZAR seamlessly blends its rich heritage with a
-              forward-thinking approach. Our team is renowned for its mastery of
-              complex legal landscapes, skillfully navigating both civil law and
-              the intricate world of Shariah. We have championed justice in
-              landmark civil and public interest cases, some of which have
-              reached the Federal Court, leaving an indelible mark on legal
-              precedent.
+                The establishment of CZAR marked a new chapter, carrying forward an unwavering 
+                commitment to navigating the multifaceted Malaysian legal system. But the pursuit 
+                of comprehensive justice didn&apos;t stop there. Recognizing the distinct and equally 
+                critical need for specialized expertise in Islamic jurisprudence, the Shariah Chambers 
+                of Zainul Rijal (SCZAR) was founded on November 25, 2022. This strategic evolution 
+                allows us to offer a truly holistic service, addressing legal matters with a nuanced 
+                understanding of both civil and Shariah principles.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col mt-10">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
+              Company Profile
+            </h1>
+            <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+                Our journey has been defined by a relentless pursuit of justice for our clients. The 
+                team at CZAR and SCZAR is recognized for its adeptness in demystifying complex 
+                legal terrains, skillfully charting courses through both civil law and the intricate 
+                principles of Shariah. We have stood at the forefront of significant legal challenges, 
+                championing causes in landmark civil and public interest cases, with several matters 
+                reaching the Federal Court and contributing to the very fabric of Malaysian legal 
+                precedent. Our story is one of continuous growth, driven by a passion for the 
+                law and a deep-seated commitment to serving our community with diligence and 
+                compassion.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col mt-10">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
+              Dual Expertise
+            </h1>
+            <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+              Chambers of Zainul Rijal (CZAR) handles a broad spectrum of 
+              civil law matters, providing expert 
+              counsel and representation in areas 
+              such as contract law, property law, 
+              tort law, family law, administrative and 
+              constitutional law, commercial and 
+              corporate law, and construction law.
+            </p>
+            <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+              Shariah Chambers of Zainul Rijal (SCZAR) focuses exclusively on Shariah 
+              law, offering specialized services in 
+              Islamic family law, Islamic inheritance 
+              law, Islamic finance, Wakaf, and, where 
+              applicable, Islamic criminal law.
             </p>
           </div>
         </div>
@@ -60,10 +100,9 @@ export default function Page() {
                 Our Vision
               </h1>
               <p className="font-tinos-regular font-normal text-xl text-[#8F6F4C] text-justify tracking-tight">
-                To be a leading force in shaping a just and equitable society,
-                recognized for our expertise, holistic approach to legal
-                solutions, and unwavering commitment to our clients and the
-                community.
+                  To provide exceptional legal services with integrity, compassion, and innovation, 
+                  championing justice and empowering our clients while upholding the highest 
+                  ethical standards.
               </p>
             </div>
             <div className="flex flex-col gap-3.5">
@@ -71,14 +110,14 @@ export default function Page() {
                 Our Mission
               </h1>
               <p className="font-tinos-regular font-normal text-xl text-[#8F6F4C] text-justify tracking-tight">
-                To provide exceptional legal services with integrity,
-                compassion, and innovation, championing justice and empowering
-                our clients while upholding the highest ethical standards.
+                  To be a leading force in shaping a just and equitable society, recognized for our 
+                  expertise, holistic approach to legal solutions, and unwavering commitment to our 
+                  clients and the community.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-10 mt-10">
+        {/* <div className="flex flex-col gap-10 mt-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
               Our Values
@@ -128,7 +167,55 @@ export default function Page() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
+        {/* <div className="flex flex-col gap-10 my-10">
+          <div className="flex flex-col gap-4">
+            <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
+              Our Certificates
+            </h1>
+            <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+              Our firm has been recognized for excellence in legal practice
+              through prestigious accolades. These accolades and publications
+              demonstrate our commitment to excellence, innovation, and the
+              advancement of legal knowledge within the community.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-2.5">
+              <Image
+                src="/assets/apac_insider.png"
+                width={0}
+                height={0}
+                sizes="100vw 100vh"
+                className="w-full h-full object-contain max-w-64"
+                alt="apac_insider"
+              />
+              <h1 className="font-tinos-regular font-normal text-xl text-[#8F6F4C]">
+                South East Asia Business Awards
+              </h1>
+              <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+                Best Muslim Family Law Firm 2019
+              </p>
+            </div>
+            <div className="flex flex-col gap-2.5">
+              <Image
+                src="/assets/book_award.png"
+                width={0}
+                height={0}
+                sizes="100vw 100vh"
+                className="w-full h-full object-contain max-w-64"
+                alt="book_award"
+              />
+              <h1 className="font-tinos-regular font-normal text-xl text-[#8F6F4C]">
+                Anugerah Buku Negara
+              </h1>
+              <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
+                National Book Award 2019
+              </p>
+            </div>
+          </div>
+        </div> */}
         <div className="flex flex-col gap-10 my-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
