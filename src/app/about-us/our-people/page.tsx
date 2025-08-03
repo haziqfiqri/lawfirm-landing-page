@@ -63,11 +63,11 @@ export default function Page() {
               </h1>
             </div>
             <Image
-              src={"/assets/section-banners/organization_chart.svg"}
+              src={"/assets/section-banners/org_chart.png"}
               width={0}
               height={0}
               sizes="100vw 100vh"
-              className="w-full h-full object-contain aspect-video"
+              className="w-full h-full object-contain"
               alt={"alt"}
             />
           </div>
