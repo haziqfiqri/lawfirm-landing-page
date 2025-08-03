@@ -4,8 +4,13 @@
     "name": "Dato Haji Zainul Rijal Bin Abu Bakar",
     "role": "Principal Partner",
     "source": "/assets/teams-png/DATO_HAJI_ZAINUL_RIJAL_BIN_ABU_BAKAR.png",
-    "practices": ["Shariah"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Shariah"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Advance Certificate in Mediation, The Accord Group, Australia",
       "Certificate in Human Rights, Geneva International Centre for Justice",
@@ -16,28 +21,19 @@
     "yip": null
   },
   {
-    "id": "muhammad-akmal-bin-abu-bakar",
-    "name": "Muhammad Akmal Bin Abu Bakar",
-    "role": "Partner",
-    "source": "/assets/teams-png/MUHAMMAD_AKMAL_BIN_ABU_BAKAR.png",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [
-      "Master of Laws (Corporate Law) UiTM",
-      "LL.M (Corporate Law), UiTM",
-      "Bachelor of Law (LL.B Hons), UiTM",
-      "Post Graduate Diploma In Syariah & Practice (DLSA), UiTM",
-      "Bachelor of Legal Studies (BLS Hons), UiTM"
-    ],
-    "yip": 2012
-  },
-  {
     "id": "danial-farhan-bin-zainul-rijal",
     "name": "Danial Farhan Bin Zainul Rijal",
-    "role": "Legal Assistance / Legal Counsel / Mediator",
+    "role": "Managing Partner / Legal Associate / Mediator",
     "source": "/assets/teams-png/DANIAL_FARHAN_BIN_ZANUL_RIJAL.png",
-    "practices": ["Civil", "Criminal Litigation", "Shariah"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Civil",
+      "Criminal Litigation",
+      "Shariah"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Cert in Mediation, The Accord Group, Australia",
       "Certificate of Human Rights, Geneva International Centre for Justice",
@@ -50,10 +46,15 @@
   {
     "id": "muhammad-isyraf-rusydi-bin-mohd-fauzi",
     "name": "Muhammad Isyraf Rusydi Bin Mohd Fauzi",
-    "role": "Legal Assistance",
+    "role": "Junior Partner / Legal Assistance",
     "source": "/assets/teams-png-new/MUHAMMAD_ISYRAF_RUSYDI_BIN_MOHD_FAUZI.PNG",
-    "practices": ["Civil Litigation"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Civil Litigation"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Bachelor of Laws (LLB), International Islamic University Malaysia (IIUM)",
       "Bachelor of Shariah Law (LLB(S)), International Islamic University Malaysia (IIUM)"
@@ -65,8 +66,13 @@
     "name": "Siti Nursalamah Binti Hussin",
     "role": "Legal Assistance",
     "source": "/assets/teams-png-new/SITI_NURSALAMAH_BINTI_HUSSIN.PNG",
-    "practices": ["Conveyancing"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Conveyancing"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Bachelor of Laws (LLB), Universiti Sultan Zainal Abidin (UNISZA)"
     ],
@@ -77,8 +83,13 @@
     "name": "Abdurrahman Bin Che Saupi",
     "role": "Legal Counsel / Mediator",
     "source": "/assets/teams-png/ABDURRAHMAN_BIN_CHE_SAUPI.png",
-    "practices": ["Shariah"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Shariah"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Certificate in Mediation, The Accord Group, Australia",
       "Bachelors of Arts in Shariah (Fiqh wa Usul), Yarmouk University, Jordan",
@@ -91,8 +102,13 @@
     "name": "Nur Amirah Haziqah Binti Mohd Sabri",
     "role": "Legal Counsel / Mediator",
     "source": "/assets/teams-png/NUR_AMIRAH_HAZIQAH_BINTI_MOHD_SABRI.png",
-    "practices": ["Shariah"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Shariah"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Bachelor of Islamic Jurisprudence (Fiqh Wa Usul), University Al Al-Bayt, Jordan",
       "Postgraduate in Islamic Judicial and Advocatory Practice, Universiti Kebangsaan Malaysia (UKM)",
@@ -105,8 +121,13 @@
     "name": "Siti Hajar Binti Mohd Khusari",
     "role": "Legal Counsel / Mediator",
     "source": "/assets/teams-png-new/SITI_HAJAR_BINTI_MOHD_KHUSARI.PNG",
-    "practices": ["Shariah"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "Shariah"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Certificate in Mediation, The Accord Group, Australia",
       "Bachelor of Islamic Studies (Shariah), Universiti Kebangsaan Malaysia (UKM)",
@@ -119,8 +140,13 @@
     "name": "Farah Aleah Binti Zainul Rijal",
     "role": "Mediator",
     "source": "/assets/teams-png/FARAH_ALEAH_BINTI_ZAINUL_RIJAL.png",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "N/A"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Certificate of Mediation, The Accord Group, Australia",
       "Cetificate of Conciliation, The Accord Group, Austrialia",
@@ -134,12 +160,17 @@
     "name": "Mohd Ridhuan Bin Jamhari",
     "role": "Mediator",
     "source": "/assets/teams-png/MOHD_RIDHUAN_BIN_JAMHARI.png",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "N/A"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
-      "Certificate of Mediation, The Accord Group, Australia", 
-      "Certificate of Conciliation, The Accord Group, Australia", 
-      "Advance Certificate of Mediation, United State of America", 
+      "Certificate of Mediation, The Accord Group, Australia",
+      "Certificate of Conciliation, The Accord Group, Australia",
+      "Advance Certificate of Mediation, United State of America",
       "Diploma in Islamic Studies (Shariah), Selangor International Islamic University College (KUIS)"
     ],
     "yip": null
@@ -149,8 +180,13 @@
     "name": "Nur Maisarah Azeman",
     "role": "Mediator",
     "source": "/assets/teams-png/NUR_MAISARAH_AZEMAN.png",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "N/A"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Certificate in Mediation, The Accord Group, Australia",
       "Bachelor of Human Sciences (Sociology and Anthropology), International Islamic University Malaysia (IIUM)"
@@ -162,37 +198,18 @@
     "name": "A'in Sakinah Binti Ali",
     "role": "Mediator",
     "source": "/assets/teams-png-new/A_IN_SAKINAH_BINTI_ALI.PNG",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
+    "practices": [
+      "N/A"
+    ],
+    "languages": [
+      "English",
+      "Bahasa Malaysia"
+    ],
     "qualifications": [
       "Certificate in Mediation, The Accord Group, Australia",
       "Bachelor of Laws (LLB), International Islamic University Malaysia (IIUM)",
       "Bachelor of Shariah Law (LLB(S)), International Islamic University Malaysia (IIUM)"
     ],
     "yip": 2024
-  },
-  {
-    "id": "lokman-hakim-bin-zani",
-    "name": "Lokman Hakim Bin Zani",
-    "role": "Mediator",
-    "source": "/assets/teams-png-new/LOKMAN_HAKIM_BIN_ZAINI.PNG",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": ["Cert in Mediation, The Accord Group, Australia"],
-    "yip": 2025
-  },
-  {
-    "id": "mohammad-adib-bin-tajul-ariffin",
-    "name": "Mohammad Adib Bin Tajul Ariffin",
-    "role": "Paralegal",
-    "source": "/assets/teams-png-new/MOHAMMAD_ADIB_BIN_TAJUL_ARIFFIN.PNG",
-    "practices": ["N/A"],
-    "languages": ["English", "Bahasa Malaysia"],
-    "qualifications": [
-      "Bachelor of Syariah (hons), Universiti Sultan Abdul Halim Mu'adzam Shah",
-      "Postgraduate Diploma in Syariah and Practice, UiTM"
-    ],
-    "yip": 2025
   }
-  
 ]
