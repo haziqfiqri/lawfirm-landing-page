@@ -44,7 +44,7 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col mt-10">
+        {/* <div className="flex flex-col mt-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
               Company Profile
@@ -61,27 +61,32 @@ export default function Page() {
                 compassion.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col mt-10">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
               Dual Expertise
             </h1>
             <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
-              Chambers of Zainul Rijal (CZAR) handles a broad spectrum of 
-              civil law matters, providing expert 
-              counsel and representation in areas 
-              such as contract law, property law, 
-              tort law, family law, administrative and 
-              constitutional law, commercial and 
-              corporate law, and construction law.
+                CZAR operates in tandem with its sister firm, the 
+                Shariah Chambers of Zainul Rijal (SCZAR). This 
+                unique structure allows for a seamless integration 
+                of legal services, catering to the diverse needs of 
+                our clients. 
             </p>
             <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
-              Shariah Chambers of Zainul Rijal (SCZAR) focuses exclusively on Shariah 
-              law, offering specialized services in 
-              Islamic family law, Islamic inheritance 
-              law, Islamic finance, Wakaf, and, where 
-              applicable, Islamic criminal law.
+                CZAR handles a broad spectrum of 
+                civil law matters, providing expert 
+                counsel and representation in areas 
+                such as contract law, property law, 
+                tort law, family law, administrative and 
+                constitutional law, commercial and 
+                corporate law, and construction law.
+                SCZAR focuses exclusively on Shariah 
+                law, offering specialized services in 
+                Islamic family law, Islamic inheritance 
+                law, Islamic finance, Wakaf, and, where 
+                applicable, Islamic criminal law
             </p>
           </div>
         </div>
