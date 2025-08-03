@@ -107,9 +107,9 @@ export default function Page() {
                 Our Vision
               </h1>
               <p className="font-tinos-regular font-normal text-xl text-[#8F6F4C] text-justify tracking-tight">
-                  To provide exceptional legal services with integrity, compassion, and innovation, 
-                  championing justice and empowering our clients while upholding the highest 
-                  ethical standards.
+                  To be a leading force in shaping a just and equitable society, recognized for our 
+                  expertise, holistic approach to legal solutions, and unwavering commitment to our 
+                  clients and the community.
               </p>
             </div>
             <div className="flex flex-col gap-3.5">
@@ -117,9 +117,9 @@ export default function Page() {
                 Our Mission
               </h1>
               <p className="font-tinos-regular font-normal text-xl text-[#8F6F4C] text-justify tracking-tight">
-                  To be a leading force in shaping a just and equitable society, recognized for our 
-                  expertise, holistic approach to legal solutions, and unwavering commitment to our 
-                  clients and the community.
+                  To provide exceptional legal services with integrity, compassion, and innovation, 
+                  championing justice and empowering our clients while upholding the highest 
+                  ethical standards.
               </p>
             </div>
           </div>
