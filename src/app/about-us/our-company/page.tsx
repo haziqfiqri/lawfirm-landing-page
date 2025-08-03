@@ -20,25 +20,27 @@ export default function Page() {
         <div className="flex flex-col mt-12">
           <div className="flex flex-col gap-4">
             <h1 className="font-tinos-regular font-normal text-2xl text-[#8F6F4C]">
-              Our Story
+              A Holistic Approach to Justice
             </h1>
             <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
-                From the vibrant heart of Subang Jaya, Selangor Darul Ehsan, a vision for a different 
-                kind of legal practice took root. On June 26, 2020, the Chambers of Zainul Rijal 
-                (CZAR) was established by the highly respected Dato’ Haji Zainul Rijal bin Abu Bakar. 
-                This was not merely the beginning of a new firm, but the continuation of a profound 
-                legal journey that began with Messrs Zainul Rijal Talha & Amir in 1996. For 24 years, 
-                that predecessor firm carved a niche of distinction, building a legacy of integrity 
-                and success that CZAR was poised to inherit and expand upon.
+                The journey of Chambers of Zainul Rijal (CZAR) and Shariah Chambers of Zainul 
+                Rijal (SCZAR) reflects a deep understanding of the evolving complexities inherent in 
+                modern legal challenges. Our growth into a comprehensive legal service provider 
+                is driven by the recognition that true advocacy extends far beyond the traditional 
+                confines of the courtroom. While we stand ready to champion our clients’ interests 
+                with robust litigation, our expertise is equally vested in the nuanced art of negotiation, 
+                the strategic pursuit of mediation, and the principled path to peaceful resolutions.
               <br />
               <br />
-                The establishment of CZAR marked a new chapter, carrying forward an unwavering 
-                commitment to navigating the multifaceted Malaysian legal system. But the pursuit 
-                of comprehensive justice didn&apos;t stop there. Recognizing the distinct and equally 
-                critical need for specialized expertise in Islamic jurisprudence, the Shariah Chambers 
-                of Zainul Rijal (SCZAR) was founded on November 25, 2022. This strategic evolution 
-                allows us to offer a truly holistic service, addressing legal matters with a nuanced 
-                understanding of both civil and Shariah principles.
+                This commitment to a multifaceted strategy stems from our core belief that the 
+                law, in its highest application, serves a purpose greater than mere adjudication. It 
+                is a powerful instrument for positive change, capable of not only resolving disputes 
+                but also of fostering understanding, mending relationships, and paving the way 
+                for reconciliation. Embracing this holistic perspective allows us to delve deeper, to 
+                understand the human element within each case, and to tailor solutions that are not 
+                only legally sound but also restorative and forward-looking. It is this philosophy that 
+                truly defines our approach and underscores our dedication to achieving outcomes 
+                that resonate with fairness and enduring justice.
             </p>
           </div>
         </div>

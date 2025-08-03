@@ -35,25 +35,21 @@ export default function Page() {
           </div>
           <div className="flex mt-10">
             <p className="font-instrument-sans-regular text-base font-medium text-[#072240] text-justify">
-              At CZAR, we believe that our people are our greatest asset. Our
-              team is a dynamic blend of seasoned veterans and energetic young
-              lawyers, all united by a shared passion for the law and a
-              commitment to our clients. The firm is led by the visionary
-              Dato&apos; Haji Zainul Rijal bin Abu Bakar, whose extensive
-              experience and esteemed reputation provide an unparalleled
-              foundation for success. He is ably supported by Muhammad Akmal bin
-              Abu Bakar, the Managing Partner, whose fresh perspectives and
-              innovative ideas are driving CZAR into the future.
+              At Chambers of Zainul Rijal (CZAR) and Shariah Chambers of Zainul Rijal (SCZAR), 
+              we pride ourselves on a spectrum of legal expertise that is both broad and deep. 
+              This allows us to deliver comprehensive and meticulously tailored legal solutions 
+              to a diverse clientele, encompassing individuals, businesses, and organisations. 
+              Our integrated approach ensures that whether your needs fall squarely within civil 
+              litigation, require nuanced Shariah counsel, or bridge aspects of both, you receive 
+              cohesive and strategic advice.
               <br />
               <br />
-              Our team of lawyers and Syarie counsel possess in depth knowledge
-              and practical experience in their respective fields. They are not
-              only skilled advocates but also compassionate advisors, dedicated
-              to understanding each client&apos;s unique needs and crafting
-              tailored legal solutions. Our dedicated support staff plays a
-              vital role in ensuring the smooth operation of the firm. Their
-              professionalism, efficiency, and commitment to client service are
-              integral to the CZAR experience.
+              Our legal teams are not only proficient in established disciplines of law but are also 
+              keenly attuned to emerging legal trends and complexities. This commitment to 
+              staying at the forefront of legal developments ensures we are thoroughly equipped 
+              to navigate even the most intricate and challenging cases with skill, foresight, and 
+              unwavering dedication to your best interests. We strive to be your trusted advisors 
+              across every facet of your legal journey.
             </p>
           </div>
           <div className="flex flex-col mt-12">
